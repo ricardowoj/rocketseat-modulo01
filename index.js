@@ -10,7 +10,7 @@ server.use(express.json())
 
 //CRUD - Cread, Read, Update, Delete
 
-const users = ['Ricardo W.', 'Cláudio', 'Dâmaris']
+const users = ['Ricardo W.', 'Cláudio', 'Dâmaris', 'Neuzinha']
 
 server.use((req, res, next) => {
     console.time('Request')
